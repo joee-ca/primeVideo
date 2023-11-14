@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BEE243C2B0370AB000F2596 /* primevideoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE243B2B0370AB000F2596 /* primevideoApp.swift */; };
+		6BEE243E2B0370AB000F2596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE243D2B0370AB000F2596 /* ContentView.swift */; };
+		6BEE24402B0370AB000F2596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE243F2B0370AB000F2596 /* Assets.xcassets */; };
+		6BEE24432B0370AB000F2596 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE24422B0370AB000F2596 /* Preview Assets.xcassets */; };
+		6BEE244D2B0370AC000F2596 /* primevideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE244C2B0370AC000F2596 /* primevideoTests.swift */; };
+		6BEE24572B0370AC000F2596 /* primevideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE24562B0370AC000F2596 /* primevideoUITests.swift */; };
+		6BEE24592B0370AC000F2596 /* primevideoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE24582B0370AC000F2596 /* primevideoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BEE24492B0370AC000F2596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BEE24302B0370AB000F2596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BEE24372B0370AB000F2596;
+			remoteInfo = primevideo;
+		};
+		6BEE24532B0370AC000F2596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BEE24302B0370AB000F2596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BEE24372B0370AB000F2596;
+			remoteInfo = primevideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BEE24382B0370AB000F2596 /* primevideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = primevideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEE243B2B0370AB000F2596 /* primevideoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoApp.swift; sourceTree = "<group>"; };
+		6BEE243D2B0370AB000F2596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6BEE243F2B0370AB000F2596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BEE24422B0370AB000F2596 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BEE24482B0370AC000F2596 /* primevideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primevideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEE244C2B0370AC000F2596 /* primevideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoTests.swift; sourceTree = "<group>"; };
+		6BEE24522B0370AC000F2596 /* primevideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primevideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEE24562B0370AC000F2596 /* primevideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoUITests.swift; sourceTree = "<group>"; };
+		6BEE24582B0370AC000F2596 /* primevideoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BEE24352B0370AB000F2596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEE24452B0370AC000F2596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEE244F2B0370AC000F2596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BEE242F2B0370AB000F2596 = {
+			isa = PBXGroup;
+			children = (
+				6BEE243A2B0370AB000F2596 /* primevideo */,
+				6BEE244B2B0370AC000F2596 /* primevideoTests */,
+				6BEE24552B0370AC000F2596 /* primevideoUITests */,
+				6BEE24392B0370AB000F2596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BEE24392B0370AB000F2596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE24382B0370AB000F2596 /* primevideo.app */,
+				6BEE24482B0370AC000F2596 /* primevideoTests.xctest */,
+				6BEE24522B0370AC000F2596 /* primevideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BEE243A2B0370AB000F2596 /* primevideo */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE243B2B0370AB000F2596 /* primevideoApp.swift */,
+				6BEE243D2B0370AB000F2596 /* ContentView.swift */,
+				6BEE243F2B0370AB000F2596 /* Assets.xcassets */,
+				6BEE24412B0370AB000F2596 /* Preview Content */,
+			);
+			path = primevideo;
+			sourceTree = "<group>";
+		};
+		6BEE24412B0370AB000F2596 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE24422B0370AB000F2596 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BEE244B2B0370AC000F2596 /* primevideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE244C2B0370AC000F2596 /* primevideoTests.swift */,
+			);
+			path = primevideoTests;
+			sourceTree = "<group>";
+		};
+		6BEE24552B0370AC000F2596 /* primevideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE24562B0370AC000F2596 /* primevideoUITests.swift */,
+				6BEE24582B0370AC000F2596 /* primevideoUITestsLaunchTests.swift */,
+			);
+			path = primevideoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BEE24372B0370AB000F2596 /* primevideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEE245C2B0370AC000F2596 /* Build configuration list for PBXNativeTarget "primevideo" */;
+			buildPhases = (
+				6BEE24342B0370AB000F2596 /* Sources */,
+				6BEE24352B0370AB000F2596 /* Frameworks */,
+				6BEE24362B0370AB000F2596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = primevideo;
+			productName = primevideo;
+			productReference = 6BEE24382B0370AB000F2596 /* primevideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BEE24472B0370AC000F2596 /* primevideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEE245F2B0370AC000F2596 /* Build configuration list for PBXNativeTarget "primevideoTests" */;
+			buildPhases = (
+				6BEE24442B0370AC000F2596 /* Sources */,
+				6BEE24452B0370AC000F2596 /* Frameworks */,
+				6BEE24462B0370AC000F2596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BEE244A2B0370AC000F2596 /* PBXTargetDependency */,
+			);
+			name = primevideoTests;
+			productName = primevideoTests;
+			productReference = 6BEE24482B0370AC000F2596 /* primevideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BEE24512B0370AC000F2596 /* primevideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEE24622B0370AC000F2596 /* Build configuration list for PBXNativeTarget "primevideoUITests" */;
+			buildPhases = (
+				6BEE244E2B0370AC000F2596 /* Sources */,
+				6BEE244F2B0370AC000F2596 /* Frameworks */,
+				6BEE24502B0370AC000F2596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BEE24542B0370AC000F2596 /* PBXTargetDependency */,
+			);
+			name = primevideoUITests;
+			productName = primevideoUITests;
+			productReference = 6BEE24522B0370AC000F2596 /* primevideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BEE24302B0370AB000F2596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6BEE24372B0370AB000F2596 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6BEE24472B0370AC000F2596 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6BEE24372B0370AB000F2596;
+					};
+					6BEE24512B0370AC000F2596 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6BEE24372B0370AB000F2596;
+					};
+				};
+			};
+			buildConfigurationList = 6BEE24332B0370AB000F2596 /* Build configuration list for PBXProject "primevideo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BEE242F2B0370AB000F2596;
+			productRefGroup = 6BEE24392B0370AB000F2596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BEE24372B0370AB000F2596 /* primevideo */,
+				6BEE24472B0370AC000F2596 /* primevideoTests */,
+				6BEE24512B0370AC000F2596 /* primevideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BEE24362B0370AB000F2596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEE24432B0370AB000F2596 /* Preview Assets.xcassets in Resources */,
+				6BEE24402B0370AB000F2596 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEE24462B0370AC000F2596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEE24502B0370AC000F2596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BEE24342B0370AB000F2596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEE243E2B0370AB000F2596 /* ContentView.swift in Sources */,
+				6BEE243C2B0370AB000F2596 /* primevideoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEE24442B0370AC000F2596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEE244D2B0370AC000F2596 /* primevideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEE244E2B0370AC000F2596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEE24592B0370AC000F2596 /* primevideoUITestsLaunchTests.swift in Sources */,
+				6BEE24572B0370AC000F2596 /* primevideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BEE244A2B0370AC000F2596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BEE24372B0370AB000F2596 /* primevideo */;
+			targetProxy = 6BEE24492B0370AC000F2596 /* PBXContainerItemProxy */;
+		};
+		6BEE24542B0370AC000F2596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BEE24372B0370AB000F2596 /* primevideo */;
+			targetProxy = 6BEE24532B0370AC000F2596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BEE245A2B0370AC000F2596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BEE245B2B0370AC000F2596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BEE245D2B0370AC000F2596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"primevideo/Preview Content\"";
+				DEVELOPMENT_TEAM = TRT3963W92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppecasillo.primevideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BEE245E2B0370AC000F2596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"primevideo/Preview Content\"";
+				DEVELOPMENT_TEAM = TRT3963W92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppecasillo.primevideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BEE24602B0370AC000F2596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRT3963W92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppecasillo.primevideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/primevideo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/primevideo";
+			};
+			name = Debug;
+		};
+		6BEE24612B0370AC000F2596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRT3963W92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppecasillo.primevideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/primevideo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/primevideo";
+			};
+			name = Release;
+		};
+		6BEE24632B0370AC000F2596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRT3963W92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppecasillo.primevideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = primevideo;
+			};
+			name = Debug;
+		};
+		6BEE24642B0370AC000F2596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRT3963W92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppecasillo.primevideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = primevideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BEE24332B0370AB000F2596 /* Build configuration list for PBXProject "primevideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEE245A2B0370AC000F2596 /* Debug */,
+				6BEE245B2B0370AC000F2596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEE245C2B0370AC000F2596 /* Build configuration list for PBXNativeTarget "primevideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEE245D2B0370AC000F2596 /* Debug */,
+				6BEE245E2B0370AC000F2596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEE245F2B0370AC000F2596 /* Build configuration list for PBXNativeTarget "primevideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEE24602B0370AC000F2596 /* Debug */,
+				6BEE24612B0370AC000F2596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEE24622B0370AC000F2596 /* Build configuration list for PBXNativeTarget "primevideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEE24632B0370AC000F2596 /* Debug */,
+				6BEE24642B0370AC000F2596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BEE24302B0370AB000F2596 /* Project object */;
+}
