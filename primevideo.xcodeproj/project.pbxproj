@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B5272A12B03E22C00E74216 /* originalCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272A02B03E22C00E74216 /* originalCarouselView.swift */; };
+		6B5272A32B03E24300E74216 /* showViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272A22B03E24300E74216 /* showViewModel.swift */; };
 		6BEE243C2B0370AB000F2596 /* primevideoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE243B2B0370AB000F2596 /* primevideoApp.swift */; };
 		6BEE243E2B0370AB000F2596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE243D2B0370AB000F2596 /* ContentView.swift */; };
 		6BEE24402B0370AB000F2596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE243F2B0370AB000F2596 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B5272A02B03E22C00E74216 /* originalCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = originalCarouselView.swift; sourceTree = "<group>"; };
+		6B5272A22B03E24300E74216 /* showViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showViewModel.swift; sourceTree = "<group>"; };
 		6BEE24382B0370AB000F2596 /* primevideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = primevideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BEE243B2B0370AB000F2596 /* primevideoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoApp.swift; sourceTree = "<group>"; };
 		6BEE243D2B0370AB000F2596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B52729F2B03E1F300E74216 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BEE243D2B0370AB000F2596 /* ContentView.swift */,
+				6B5272A02B03E22C00E74216 /* originalCarouselView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6BEE242F2B0370AB000F2596 = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6BEE243B2B0370AB000F2596 /* primevideoApp.swift */,
-				6BEE243D2B0370AB000F2596 /* ContentView.swift */,
+				6B52729F2B03E1F300E74216 /* View */,
 				6BEE24672B03713A000F2596 /* Model */,
 				6BEE243F2B0370AB000F2596 /* Assets.xcassets */,
 				6BEE24412B0370AB000F2596 /* Preview Content */,
@@ -109,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				6BEE24652B03712A000F2596 /* show.swift */,
+				6B5272A22B03E24300E74216 /* showViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,9 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5272A32B03E24300E74216 /* showViewModel.swift in Sources */,
 				6BEE24662B03712A000F2596 /* show.swift in Sources */,
 				6BEE243E2B0370AB000F2596 /* ContentView.swift in Sources */,
 				6BEE243C2B0370AB000F2596 /* primevideoApp.swift in Sources */,
+				6B5272A12B03E22C00E74216 /* originalCarouselView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

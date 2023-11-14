@@ -10,11 +10,11 @@ import Foundation
 
 class Show: Identifiable{
     let id: UUID
-    private let type: String
-    private let name: String
-    private let cover: String
-    private let original: Bool
-    private let genres: [String]
+    public let type: String
+    public let name: String
+    public let cover: String
+    public let original: Bool
+    public let genres: [String]
     
     init(type: String, name: String, cover: String, original: Bool, genres: [String]) {
         self.id = UUID()
