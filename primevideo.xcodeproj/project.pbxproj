@@ -11,9 +11,7 @@
 		6BEE243E2B0370AB000F2596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE243D2B0370AB000F2596 /* ContentView.swift */; };
 		6BEE24402B0370AB000F2596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE243F2B0370AB000F2596 /* Assets.xcassets */; };
 		6BEE24432B0370AB000F2596 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE24422B0370AB000F2596 /* Preview Assets.xcassets */; };
-		6BEE244D2B0370AC000F2596 /* primevideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE244C2B0370AC000F2596 /* primevideoTests.swift */; };
-		6BEE24572B0370AC000F2596 /* primevideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE24562B0370AC000F2596 /* primevideoUITests.swift */; };
-		6BEE24592B0370AC000F2596 /* primevideoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE24582B0370AC000F2596 /* primevideoUITestsLaunchTests.swift */; };
+		6BEE24662B03712A000F2596 /* show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE24652B03712A000F2596 /* show.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +38,8 @@
 		6BEE243F2B0370AB000F2596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BEE24422B0370AB000F2596 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BEE24482B0370AC000F2596 /* primevideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primevideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BEE244C2B0370AC000F2596 /* primevideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoTests.swift; sourceTree = "<group>"; };
 		6BEE24522B0370AC000F2596 /* primevideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primevideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BEE24562B0370AC000F2596 /* primevideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoUITests.swift; sourceTree = "<group>"; };
-		6BEE24582B0370AC000F2596 /* primevideoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6BEE24652B03712A000F2596 /* show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				6BEE243A2B0370AB000F2596 /* primevideo */,
-				6BEE244B2B0370AC000F2596 /* primevideoTests */,
-				6BEE24552B0370AC000F2596 /* primevideoUITests */,
 				6BEE24392B0370AB000F2596 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +90,7 @@
 			children = (
 				6BEE243B2B0370AB000F2596 /* primevideoApp.swift */,
 				6BEE243D2B0370AB000F2596 /* ContentView.swift */,
+				6BEE24672B03713A000F2596 /* Model */,
 				6BEE243F2B0370AB000F2596 /* Assets.xcassets */,
 				6BEE24412B0370AB000F2596 /* Preview Content */,
 			);
@@ -110,21 +105,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6BEE244B2B0370AC000F2596 /* primevideoTests */ = {
+		6BEE24672B03713A000F2596 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6BEE244C2B0370AC000F2596 /* primevideoTests.swift */,
+				6BEE24652B03712A000F2596 /* show.swift */,
 			);
-			path = primevideoTests;
-			sourceTree = "<group>";
-		};
-		6BEE24552B0370AC000F2596 /* primevideoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6BEE24562B0370AC000F2596 /* primevideoUITests.swift */,
-				6BEE24582B0370AC000F2596 /* primevideoUITestsLaunchTests.swift */,
-			);
-			path = primevideoUITests;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BEE24662B03712A000F2596 /* show.swift in Sources */,
 				6BEE243E2B0370AB000F2596 /* ContentView.swift in Sources */,
 				6BEE243C2B0370AB000F2596 /* primevideoApp.swift in Sources */,
 			);
@@ -266,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BEE244D2B0370AC000F2596 /* primevideoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BEE24592B0370AC000F2596 /* primevideoUITestsLaunchTests.swift in Sources */,
-				6BEE24572B0370AC000F2596 /* primevideoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
