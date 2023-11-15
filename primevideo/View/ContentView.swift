@@ -49,6 +49,11 @@ struct ContentView: View {
             }.padding(.horizontal)
             originalCarouselView()
             
+            generalCarouselView(type: "action")
+            generalCarouselView(type: "fantasy")
+            
+            
+            
         }.preferredColorScheme(.dark)
            
         

@@ -18,6 +18,13 @@ class showViewModel{
         Show(type: "film", name: "The Pope exorcist Zoey", cover: "The Pope's exorcist", cover2: "the pope exorcist 2", original: true, genres: ["horror", "thriller", "mistery"]),
         Show(type: "series", name: "Monterossi", cover: "Monterossi", cover2: "monterossi 2", original: true, genres: ["comedy"]),
         Show(type: "film", name: "65", cover: "65", cover2: "placeholder", original: true, genres: ["action", "sci-fi","thriller"]),
-        Show(type: "film", name: "Therapy", cover: "Therapy", cover2: "therapy 2", original: true, genres: ["mistery", "horror"])
+        Show(type: "film", name: "Therapy", cover: "Therapy", cover2: "therapy 2", original: true, genres: ["mistery", "horror"]),
+        Show(type: "film", name: "plcd", cover: "", cover2: "placeholder", original: false, genres: ["action", "fantasy"]),
+        Show(type: "film", name: "plcd", cover: "", cover2: "placeholder", original: false, genres: ["action", "fantasy"]),
+        Show(type: "film", name: "plcd", cover: "", cover2: "placeholder", original: false, genres: ["action", "fantasy"]),
+        Show(type: "film", name: "plcd", cover: "", cover2: "placeholder", original: false, genres: ["action", "fantasy"]),
+        Show(type: "film", name: "plcd", cover: "", cover2: "placeholder", original: false, genres: ["action", "fantasy"]),
+        Show(type: "film", name: "plcd", cover: "", cover2: "placeholder", original: false, genres: ["action", "fantasy"]),
+        Show(type: "film", name: "plcd", cover: "", cover2: "placeholder", original: false, genres: ["action", "fantasy"])
     ]
 }
