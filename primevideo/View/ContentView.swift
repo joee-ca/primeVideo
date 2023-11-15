@@ -50,7 +50,7 @@ struct ContentView: View {
             originalCarouselView()
             
         }.preferredColorScheme(.dark)
-            .ignoresSafeArea()
+           
         
     }
 }

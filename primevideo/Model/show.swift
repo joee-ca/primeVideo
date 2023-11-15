@@ -13,14 +13,16 @@ class Show: Identifiable{
     public let type: String
     public let name: String
     public let cover: String
+    public let cover2: String
     public let original: Bool
     public let genres: [String]
     
-    init(type: String, name: String, cover: String, original: Bool, genres: [String]) {
+    init(type: String, name: String, cover: String, cover2: String, original: Bool, genres: [String]) {
         self.id = UUID()
         self.type = type
         self.name = name
         self.cover = cover
+        self.cover2 = cover2
         self.original = original
         self.genres = genres
     }

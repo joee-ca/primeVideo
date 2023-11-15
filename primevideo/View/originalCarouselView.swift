@@ -16,7 +16,14 @@ struct originalCarouselView: View {
         let screenWidth = screenSize.width
         let screenHeight = screenSize.height
         
-        HStack{
+        VStack{
+            HStack{
+                Text("Prime").foregroundStyle(.blue).bold().font(.title2) +
+                Text(" - Amazon Originals and Exclusives").bold().font(.title2)
+                Spacer()
+                Image(systemName: "chevron.right").foregroundStyle(.white).bold()
+                Spacer()
+            }
         ScrollView(.horizontal){
             HStack{
                 ForEach(showModel.shows){
@@ -30,7 +37,8 @@ struct originalCarouselView: View {
                 }
             }
         }.scrollIndicators(.hidden)
-        }
+        }.preferredColorScheme(.dark)
+            
     }
 }
 
