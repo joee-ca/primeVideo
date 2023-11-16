@@ -20,5 +20,53 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AF4456B-5D04-4C03-9E2A-70AD6833460A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "primevideo/View/topTabView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0AF4456B-5D04-4C03-9E2A-70AD6833460A - 717353af563eaea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;primevideo.Show&gt;, Foundation.UUID, SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, &lt;&lt;opaque return type of primevideo.topTabView.increaseTag(number: inout Swift.Int) -&gt; some&gt;&gt;.0)&gt;&gt;&gt; in primevideo.topTabView.body.getter : some"
+                  moduleName = "primevideo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gcasillo/Desktop/PrimeVideo/primevideo/primevideo/View/topTabView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "0AF4456B-5D04-4C03-9E2A-70AD6833460A - b624b36184009a08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (primevideo.Show) -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, &lt;&lt;opaque return type of primevideo.topTabView.increaseTag(number: inout Swift.Int) -&gt; some&gt;&gt;.0)&gt;&gt; in closure #2 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;primevideo.Show&gt;, Foundation.UUID, SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, &lt;&lt;opaque return type of primevideo.topTabView.increaseTag(number: inout Swift.Int) -&gt; some&gt;&gt;.0)&gt;&gt;&gt; in primevideo.topTabView.body.getter : some"
+                  moduleName = "primevideo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gcasillo/Desktop/PrimeVideo/primevideo/primevideo/View/topTabView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
