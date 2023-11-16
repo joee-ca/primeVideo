@@ -13,13 +13,13 @@ struct generalCarouselView: View {
     
     var showModel = showViewModel()
     var body: some View {
-        let screenWidth = screenSize.width
-        let screenHeight = screenSize.height
+        let imageWidth = (screenSize.width/1.7)
+        let imageHeight = (imageWidth/16)*9
         
         VStack{
             HStack{
                 Text("Prime").foregroundStyle(.blue).bold().font(.title2) +
-                Text(" - " + type + " shows").bold().font(.title2)
+                Text(" - " + type + " movies and shows").bold().font(.title2)
                 Spacer()
                 Image(systemName: "chevron.right").foregroundStyle(.white).bold()
                 Spacer()
@@ -30,7 +30,7 @@ struct generalCarouselView: View {
                     show in
                     if(show.genres.contains(type)){
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                            Image(show.cover2).resizable().frame(width: screenWidth/1.8, height: screenHeight/7.0)
+                            Image(show.cover2).resizable().frame(width: imageWidth, height: imageHeight)
                         }).clipShape(RoundedRectangle(cornerRadius: 10.0))
                         
                     }

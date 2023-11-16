@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    let screenSize: CGRect = UIScreen.main.bounds
     @State private var selectedCategory = "all"
     var body: some View {
+        let imageWidth = screenSize.width
+        let imageHeight = (imageWidth/16)*9
         ScrollView{
-            
             HStack {
                 Image("prime_logo").resizable().frame(width: 120, height: 70).colorInvert()
                 Spacer()
@@ -41,24 +43,30 @@ struct ContentView: View {
                 Button(action: {
                     selectedCategory = "series"
                 }, label: {
-                    Text("TV-Series").frame(width: 90, height: 30)
+                    Text("TV shows").frame(width: 90, height: 30)
                 }).background(selectedCategory=="series" ? .white : .black).foregroundStyle(selectedCategory=="series" ? .black : .white).clipShape(Capsule())
                 
                 
                 Spacer()
             }.padding(.horizontal)
+
+            topTabView().frame(width: imageWidth, height: imageHeight)
+            
             originalCarouselView()
             
-            generalCarouselView(type: "action")
+            generalCarouselView(type: "horror")
             generalCarouselView(type: "fantasy")
             
             
             
         }.preferredColorScheme(.dark)
            
-        
     }
+    
+    
 }
+
+
 
 
 #Preview {

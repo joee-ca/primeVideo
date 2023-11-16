@@ -13,8 +13,8 @@ struct originalCarouselView: View {
     
     var showModel = showViewModel()
     var body: some View {
-        let screenWidth = screenSize.width
-        let screenHeight = screenSize.height
+        let imageWidth = (screenSize.width/2.6)
+        let imageHeight = (imageWidth/8)*12
         
         VStack{
             HStack{
@@ -30,7 +30,7 @@ struct originalCarouselView: View {
                     show in
                     if(show.original == true){
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                            Image(show.cover).resizable().frame(width: screenWidth/2.60, height: screenHeight/3.8)
+                            Image(show.cover).resizable().frame(width: imageWidth, height: imageHeight)
                         }).clipShape(RoundedRectangle(cornerRadius: 10.0))
                         
                     }
