@@ -21,11 +21,12 @@ struct topTabView: View {
         TabView(){
             ForEach(showModel.shows){ show in
                 if(show.original){
-                        Image(show.cover2).resizable().frame(width: imageWidth, height: imageHeight)
+                        Image(show.cover2).resizable()
                 }
                 
             }
         }
+        .frame(width: imageWidth, height: imageHeight)
         .tabViewStyle(.page(indexDisplayMode: .always))
         .preferredColorScheme(.dark)
 //        .onReceive(timer){

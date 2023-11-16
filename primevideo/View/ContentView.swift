@@ -8,11 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    let screenSize: CGRect = UIScreen.main.bounds
     @State private var selectedCategory = "all"
     var body: some View {
-        let imageWidth = screenSize.width
-        let imageHeight = (imageWidth/16)*9
         ScrollView{
             HStack {
                 Image("prime_logo").resizable().frame(width: 120, height: 70).colorInvert()
@@ -50,7 +47,7 @@ struct ContentView: View {
                 Spacer()
             }.padding(.horizontal)
 
-            topTabView().frame(width: imageWidth, height: imageHeight)
+            topTabView()
             
             originalCarouselView()
             
