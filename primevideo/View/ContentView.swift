@@ -19,7 +19,8 @@ struct ContentView: View {
                         Image(systemName: "tv.badge.wifi").foregroundStyle(.white)
                     })
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        Circle().frame(width: 30, height: 30)
+                        Image(systemName: "person.circle.fill").resizable().clipShape(Circle()).frame(width: 30, height: 30)
+                       
                     })
                 }
                 
