@@ -26,8 +26,7 @@ struct topCarouselView: View {
                 Text("Prime").foregroundStyle(.blue).bold().font(.title2) +
                 Text(" - Top 10 in Italy").bold().font(.title2)
                 Spacer()
-                Image(systemName: "chevron.right").foregroundStyle(.white).bold()
-                Spacer()
+                
             }
             ScrollView(.horizontal){
                 HStack{

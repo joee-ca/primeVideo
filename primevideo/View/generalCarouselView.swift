@@ -9,7 +9,7 @@ import SwiftUI
 
 struct generalCarouselView: View {
     let screenSize: CGRect = UIScreen.main.bounds
-    @State public var type: String = "action"
+    @State public var type: String = "fantasy"
     
     var showModel = showViewModel()
     var body: some View {

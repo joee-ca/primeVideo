@@ -25,7 +25,10 @@ struct topTabView: View {
         
         TabView(selection: $current){
             ForEach(0..<originalShows.count){ index in
-                        Image(originalShows[index].cover2).resizable().tag(index)
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Image(originalShows[index].cover2).resizable().tag(index)
+                })
+                        
             }
         }
         .frame(width: imageWidth, height: imageHeight)
