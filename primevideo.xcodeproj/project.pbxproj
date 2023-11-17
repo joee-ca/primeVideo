@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6B5272A12B03E22C00E74216 /* originalCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272A02B03E22C00E74216 /* originalCarouselView.swift */; };
 		6B5272A32B03E24300E74216 /* showViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272A22B03E24300E74216 /* showViewModel.swift */; };
+		6B644ACD2B076AAA002D79C0 /* topCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B644ACC2B076AAA002D79C0 /* topCarouselView.swift */; };
 		6BDA78212B04F8AC00DD392B /* generalCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA78202B04F8AC00DD392B /* generalCarouselView.swift */; };
 		6BEE243C2B0370AB000F2596 /* primevideoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE243B2B0370AB000F2596 /* primevideoApp.swift */; };
 		6BEE243E2B0370AB000F2596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE243D2B0370AB000F2596 /* ContentView.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		6B5272A02B03E22C00E74216 /* originalCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = originalCarouselView.swift; sourceTree = "<group>"; };
 		6B5272A22B03E24300E74216 /* showViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showViewModel.swift; sourceTree = "<group>"; };
+		6B644ACC2B076AAA002D79C0 /* topCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topCarouselView.swift; sourceTree = "<group>"; };
 		6BDA78202B04F8AC00DD392B /* generalCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalCarouselView.swift; sourceTree = "<group>"; };
 		6BEE24382B0370AB000F2596 /* primevideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = primevideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BEE243B2B0370AB000F2596 /* primevideoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primevideoApp.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				6BF4ADF42B0603E00014CE9C /* topTabView.swift */,
 				6B5272A02B03E22C00E74216 /* originalCarouselView.swift */,
 				6BDA78202B04F8AC00DD392B /* generalCarouselView.swift */,
+				6B644ACC2B076AAA002D79C0 /* topCarouselView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				6BDA78212B04F8AC00DD392B /* generalCarouselView.swift in Sources */,
 				6BEE24662B03712A000F2596 /* show.swift in Sources */,
 				6BEE243E2B0370AB000F2596 /* ContentView.swift in Sources */,
+				6B644ACD2B076AAA002D79C0 /* topCarouselView.swift in Sources */,
 				6BEE243C2B0370AB000F2596 /* primevideoApp.swift in Sources */,
 				6B5272A12B03E22C00E74216 /* originalCarouselView.swift in Sources */,
 				6BF4ADF52B0603E00014CE9C /* topTabView.swift in Sources */,

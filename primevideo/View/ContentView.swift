@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         ScrollView{
             HStack {
-                Image("prime_logo").resizable().frame(width: 120, height: 70).colorInvert()
+                Image("prime_logo").resizable().frame(width:60, height: 20).padding(.horizontal)
                 Spacer()
                 HStack{
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
@@ -21,7 +21,7 @@ struct ContentView: View {
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                         Circle().frame(width: 30, height: 30)
                     })
-                }.padding(.horizontal)
+                }
                 
             }
             HStack{
@@ -48,6 +48,8 @@ struct ContentView: View {
             }.padding(.horizontal)
 
             topTabView()
+            
+            topCarouselView()
             
             originalCarouselView()
             
