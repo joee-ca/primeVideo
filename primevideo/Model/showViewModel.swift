@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+// The movie Database
 class showViewModel{
     var shows: [Show] = [
         Show(type: "series", name: "Invincible", cover: "Invincible", cover2: "Invincible2", original: true, genres: ["action", "fantasy","superheroes"]),

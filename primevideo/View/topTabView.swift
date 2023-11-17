@@ -12,8 +12,8 @@ struct topTabView: View {
     
     var showModel = showViewModel()
     
-    let screenSize: CGRect = UIScreen.main.bounds
-    let timer = Timer.publish(every: 5, on: .main, in: . common).autoconnect()
+    private let screenSize: CGRect = UIScreen.main.bounds
+    private let timer = Timer.publish(every: 4, on: .main, in: . common).autoconnect()
     
     var body: some View {
         let imageWidth = screenSize.width
@@ -22,7 +22,6 @@ struct topTabView: View {
         let originalShows = showModel.shows.filter { show in
             return show.original
         }
-        
         
         TabView(selection: $current){
             ForEach(0..<originalShows.count){ index in
@@ -45,10 +44,6 @@ struct topTabView: View {
         }
         
     }
-    //    func increaseTag(number: inout Int)-> some View{
-    //        number += 1
-    //        return Text("\(number)").bold().font(.largeTitle)
-    //    }
 }
 #Preview {
     topTabView()
