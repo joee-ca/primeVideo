@@ -25,9 +25,7 @@ struct topTabView: View {
         
         TabView(selection: $current){
             ForEach(0..<originalShows.count){ index in
-                    ZStack{
                         Image(originalShows[index].cover2).resizable().tag(index)
-                    }
             }
         }
         .frame(width: imageWidth, height: imageHeight)
