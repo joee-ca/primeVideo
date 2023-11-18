@@ -81,12 +81,20 @@
 			isa = PBXGroup;
 			children = (
 				6BEE243D2B0370AB000F2596 /* homePageView.swift */,
-				6BF4ADF42B0603E00014CE9C /* topTabView.swift */,
+				6BD2667B2B0915C4001FDB3A /* View Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BD2667B2B0915C4001FDB3A /* View Components */ = {
+			isa = PBXGroup;
+			children = (
 				6B5272A02B03E22C00E74216 /* originalCarouselView.swift */,
+				6BF4ADF42B0603E00014CE9C /* topTabView.swift */,
 				6BDA78202B04F8AC00DD392B /* generalCarouselView.swift */,
 				6B644ACC2B076AAA002D79C0 /* topCarouselView.swift */,
 			);
-			path = View;
+			path = "View Components";
 			sourceTree = "<group>";
 		};
 		6BEE242F2B0370AB000F2596 = {
