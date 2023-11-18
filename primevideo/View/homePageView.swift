@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  homePageView.swift
 //  primevideo
 //
 //  Created by Giuseppe Casillo on 14/11/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct homePageView: View {
     @State private var selectedCategory = "all"
     var body: some View {
         ScrollView{
@@ -70,5 +70,5 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView()
+    homePageView()
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct primevideoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            homePageView()
         }
     }
 }
