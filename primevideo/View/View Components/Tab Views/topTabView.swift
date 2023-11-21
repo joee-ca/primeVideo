@@ -24,14 +24,26 @@ struct topTabView: View {
         }
         
         TabView(selection: $current){
-            ForEach(0..<originalShows.count){ index in
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                    Image(originalShows[index].cover2).resizable().tag(index)
-                })
-                        
+            ForEach(originalShows.indices){ index in
+                
+                ZStack{
+                    
+                    Rectangle().foregroundStyle(.clear)
+                    
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                            VStack{
+                                Image(originalShows[index].cover2).resizable()
+                                    .tag(index)
+                                    .frame(width: imageWidth, height: imageHeight)
+                                    
+                                Spacer()
+                            }
+                        }).accessibilityLabel(originalShows[index].name)
+                    
+                }
             }
         }
-        .frame(width: imageWidth, height: imageHeight)
+        .frame(width: imageWidth, height: imageHeight+45)
         .tabViewStyle(.page(indexDisplayMode: .always))
         .preferredColorScheme(.dark)
         .onReceive(timer){ _ in

@@ -48,7 +48,7 @@ struct topCarouselView: View {
                                     
                                 }
                             })
-                            
+                            .accessibilityLabel(show.name)
                             
                         }
                         

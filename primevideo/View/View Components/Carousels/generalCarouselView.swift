@@ -24,6 +24,7 @@ struct generalCarouselView: View {
                 Image(systemName: "chevron.right").foregroundStyle(.white).bold()
                 Spacer()
             }
+            
         ScrollView(.horizontal){
             HStack{
                 ForEach(showModel.shows){
@@ -31,8 +32,10 @@ struct generalCarouselView: View {
                     if(show.genres.contains(type)){
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                             Image(show.cover2).resizable().frame(width: imageWidth, height: imageHeight)
-                        }).clipShape(RoundedRectangle(cornerRadius: 10.0))
-                        
+                                
+                        })
+                        .clipShape(RoundedRectangle(cornerRadius: 10.0))
+                        .accessibilityLabel(show.name)
                     }
                 }
             }
