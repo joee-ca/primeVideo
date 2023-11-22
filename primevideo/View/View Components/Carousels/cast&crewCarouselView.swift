@@ -24,8 +24,9 @@ struct cast_crewCarouselView: View {
                 Text("\nDetails from IMDb")
                     .bold()
                     .foregroundStyle(.gray)
-                Spacer()
+                    
             }
+            .frame(width: screenWidth, alignment: .leading)
             
             ScrollView(.horizontal){
                 HStack{

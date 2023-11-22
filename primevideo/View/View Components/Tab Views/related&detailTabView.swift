@@ -77,7 +77,6 @@ struct related_detailTabView: View {
             }
             
             
-           Spacer()
         }.preferredColorScheme(.dark)
     }
 }
