@@ -11,8 +11,9 @@ struct showDetailView: View {
     @State public var currentShow: Show
     let screenWidth = UIScreen.main.bounds.width
     var body: some View {
-        ScrollView{
-            
+        NavigationStack{
+            ScrollView{
+                
                 ZStack{
                     Image(currentShow.cover2).resizable()
                     Rectangle().foregroundStyle(Gradient(colors: [.clear, .clear, .black]))
@@ -20,7 +21,7 @@ struct showDetailView: View {
                 }.frame(width: screenWidth, height: (screenWidth/16)*9)
                 
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                NavigationLink(destination: videoView().navigationBarBackButtonHidden(), label: {
                     ZStack{
                         RoundedRectangle(cornerRadius: 5.0)
                             .foregroundStyle(.white)
@@ -59,18 +60,19 @@ struct showDetailView: View {
                     .frame(width: screenWidth * 0.95)
                     .bold()
                 
-    
+                
                 Text(" " + currentShow.printGenres())
                     .frame(width: screenWidth * 0.95, alignment: .leading)
                     .bold()
                     .padding(.vertical)
-
                 
-                    
-            
-            
-            related_detailTabView(currentShow: currentShow)
-        }.preferredColorScheme(.dark)
+                
+                
+                
+                
+                related_detailTabView(currentShow: currentShow)
+            }.preferredColorScheme(.dark)
+        }
     }
 }
 
