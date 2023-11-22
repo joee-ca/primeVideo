@@ -35,7 +35,7 @@ struct topCarouselView: View {
                     })){ show in
                         ZStack{
                             Rectangle().frame(width: imageWidth, height: imageHeight).foregroundStyle(.clear)
-                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                            NavigationLink(destination: showDetailView(currentShow: show), label: {
                                 ZStack{
                                     HStack{
                                         Spacer()

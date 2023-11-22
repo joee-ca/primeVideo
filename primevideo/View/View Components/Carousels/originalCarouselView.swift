@@ -30,7 +30,7 @@ struct originalCarouselView: View {
                 ForEach(showModel.shows){
                     show in
                     if(show.original == true){
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        NavigationLink(destination: showDetailView(currentShow: show), label: {
                             Image(show.cover).resizable().frame(width: imageWidth, height: imageHeight)
                                 
                         })

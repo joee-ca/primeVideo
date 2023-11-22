@@ -30,7 +30,7 @@ struct topTabView: View {
                     
                     Rectangle().foregroundStyle(.clear)
                     
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    NavigationLink(destination: showDetailView(currentShow: originalShows[index]), label: {
                             VStack{
                                 Image(originalShows[index].cover2).resizable()
                                     .tag(index)
