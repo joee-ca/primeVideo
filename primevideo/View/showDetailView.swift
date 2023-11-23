@@ -21,7 +21,7 @@ struct showDetailView: View {
                 }.frame(width: screenWidth, height: (screenWidth/16)*9)
                 
                 
-                NavigationLink(destination: videoView().navigationBarBackButtonHidden(), label: {
+                NavigationLink(destination: videoView(), label: {
                     ZStack{
                         RoundedRectangle(cornerRadius: 5.0)
                             .foregroundStyle(.white)
