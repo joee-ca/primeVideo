@@ -18,7 +18,9 @@ struct showDetailView: View {
                     Image(currentShow.cover2).resizable()
                     Rectangle().foregroundStyle(Gradient(colors: [.clear, .clear, .black]))
                     Text(currentShow.name).font(.title).bold().frame(width: screenWidth, height: (screenWidth/16)*9, alignment: .bottomLeading)
-                }.frame(width: screenWidth, height: (screenWidth/16)*9)
+                }
+                .accessibilityLabel(currentShow.name)
+                .frame(width: screenWidth, height: (screenWidth/16)*9)
                 
                 
                 NavigationLink(destination: videoView().navigationBarBackButtonHidden(), label: {
