@@ -14,7 +14,10 @@ struct homePageView: View {
         ScrollView{
             
                 HStack {
-                    Image("prime_logo").resizable().frame(width:60, height: 20).padding(.horizontal)
+                    Image("prime_logo").resizable().frame(width:60, height: 20)
+                        .accessibilityLabel("Prime Video Logo")
+                        .padding(.horizontal)
+                    
                     Spacer()
                     HStack{
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
