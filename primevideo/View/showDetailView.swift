@@ -49,13 +49,35 @@ struct showDetailView: View {
                 .font(.title2)
                 
                 HStack{
-                    Circle().frame(width: 80)
-                        .padding()
-                    Circle().frame(width: 80)
-                        .padding()
-                    Circle().frame(width: 80)
-                        .padding()
+                    Button(action: {}, label: {
+                        VStack{
+                            Image(systemName: "play.square")
+                            Text("Trailer")
+                        }
+                    })
+                    .accessibilityLabel("Watch trailer")
+                    .padding()
+                    Button(action: {}, label: {
+                        VStack{
+                            Image(systemName: "plus")
+                            Text("Watchlist")
+                        }
+                    })
+                    .accessibilityLabel("Add to watchlist")
+                    .padding()
+                    Button(action: {}, label: {
+                        VStack{
+                            Image(systemName: "ellipsis.curlybraces")
+                            Text("More")
+                        }
+                    })
+                    .accessibilityLabel("More information")
+                    .padding()
                 }
+                .foregroundStyle(.white)
+                .bold()
+                .font(.title2)
+                
                 Text("After years of searching in vain, blablabla found bla bla bla, etc etc, bla bla blabla bla again and, after a long fight, good people won")
                     .frame(width: screenWidth * 0.95)
                     .bold()
