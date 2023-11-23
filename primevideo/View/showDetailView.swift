@@ -33,7 +33,7 @@ struct showDetailView: View {
                     }
                 })
                 .padding(.vertical, 20)
-                .font(.title2)
+                .font(.headline)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     ZStack{
@@ -46,7 +46,7 @@ struct showDetailView: View {
                         }.foregroundStyle(.white)
                     }
                 })
-                .font(.title2)
+                .font(.headline)
                 
                 HStack{
                     Button(action: {}, label: {
@@ -76,7 +76,7 @@ struct showDetailView: View {
                 }
                 .foregroundStyle(.white)
                 .bold()
-                .font(.title2)
+                .font(.headline)
                 
                 Text("After years of searching in vain, blablabla found bla bla bla, etc etc, bla bla blabla bla again and, after a long fight, good people won")
                     .frame(width: screenWidth * 0.95)
